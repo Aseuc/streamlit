@@ -1,7 +1,6 @@
 
 import datetime
 import numpy as np
-from sklearn.svm import SVR
 import matplotlib.pyplot as plt
 import pandas as pd
 import requests
