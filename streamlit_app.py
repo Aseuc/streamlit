@@ -1,1 +1,16 @@
 
+import datetime
+import numpy as np
+from sklearn.svm import SVR
+import matplotlib.pyplot as plt
+import pandas as pd
+import requests
+import csv
+import streamlit as st
+import pandas as pd
+
+
+st.write("Hi")
+
+df = pd.read_csv("data_20230421004650.csv")
+st.line_chart(df)
