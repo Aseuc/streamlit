@@ -11,5 +11,6 @@ import pandas as pd
 st.write("Hi")
 
 df = pd.read_csv("data.csv")
-#df2 = pd.read_csv("Accelerometer.csv")
+df2 = pd.read_csv("Barometer.csv")
 st.line_chart(df)
+st.bar_chart(df2)
