@@ -1,7 +1,4 @@
 import streamlit as st
-upload()
-
-
 
 
 if st.button('Start Analyse'):
