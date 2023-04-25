@@ -15,8 +15,8 @@ upload()
       
        
        
-#if st.button('Start Analyse'):
- #   st.write('Why hello there') 
+if st.button('Start Analyse'):
+    st.write('Why hello there') 
         
 
 
