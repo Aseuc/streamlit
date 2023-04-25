@@ -10,4 +10,4 @@ def upload():
 upload()
 
 
-st.button("Start Analyse")
+st.button('Start Analyse')
