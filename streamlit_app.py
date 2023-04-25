@@ -1,4 +1,10 @@
 import streamlit as st
+import csv
+import numpy as np
+import streamlit as st
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+import sklearn as sk
 
 def upload():
     uploaded_files = st.file_uploader("Choose a CSV file", accept_multiple_files=True)
