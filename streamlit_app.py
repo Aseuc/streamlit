@@ -1,8 +1,8 @@
 import streamlit as st
 
 
-if st.button('Start Analyse'):
-    st.write('Why hello there') 
+#if st.button('Start Analyse'):
+ #   st.write('Why hello there') 
     
 def upload():
     uploaded_files = st.file_uploader("Choose a CSV file", accept_multiple_files=True)
