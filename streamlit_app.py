@@ -1,7 +1,6 @@
 import csv
 import pandas as pd
 import numpy as np
-import matplotlib as mp
 import streamlit as st
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
