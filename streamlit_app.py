@@ -1,10 +1,8 @@
 import streamlit as st
 
-if st.button('Say hello'):
-    st.write('Why hello there')
-else:
-    st.write('Goodbye')
-
+if st.button('Start Analyse'):
+    st.write('Why hello there') 
+    
 #def upload():
  #   uploaded_files = st.file_uploader("Choose a CSV file", accept_multiple_files=True)
   #  for uploaded_file in uploaded_files:
