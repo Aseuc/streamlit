@@ -10,7 +10,7 @@ def upload():
 upload()
 
 def  dataAnalyze():
-        data = pd.read_excel('streamlit/TestData.xlsx')
+        data = pd.read_excel('/streamlit/TestData.xlsx')
         np.random.seed(42)
         X = data.drop('target', axis=1)
         y = data["target"]
