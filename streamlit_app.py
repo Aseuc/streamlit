@@ -1,4 +1,5 @@
 import streamlit as st
+st.button('Start Analyse')
 def upload():
     uploaded_files = st.file_uploader("Choose a CSV file", accept_multiple_files=True)
     for uploaded_file in uploaded_files:
@@ -10,4 +11,4 @@ def upload():
 #upload()
 
 
-st.button('Start Analyse')
+
