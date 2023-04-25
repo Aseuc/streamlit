@@ -7,7 +7,7 @@ def upload():
         #st.write(bytes_data)
 
         
-upload()
+#upload()
 
 
 st.button('Start Analyse')
