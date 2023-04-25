@@ -8,3 +8,6 @@ def upload():
 
         
 upload()
+
+
+st.button("Start Analyse")
